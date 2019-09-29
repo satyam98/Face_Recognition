@@ -39,6 +39,8 @@ while True:
             Id="Satyam"
         elif(Id==2):
             Id="Varun"
+        elif(Id==3):
+            Id="Khushbu"
         else:
             Id="Unknown"
         cv2.putText(im, str(Id), (x,y+h), font, fontScale, fontColor)
